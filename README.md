@@ -1,4 +1,4 @@
-# MediScan Lite 
+# MediScan Lite 🩺
 
 A Machine Learning-based web application that predicts whether a patient is diabetic or not based on medical input parameters.
 
@@ -23,10 +23,10 @@ A Machine Learning-based web application that predicts whether a patient is diab
 ##  How to Run
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/MediScanLite.git
+   git clone https://github.com/chinmaya-dev77/MEDISCANLITE.git
 
 2. Navigate to the project folder:
-   cd MediScanLite
+   cd MEDISCANLITE
 
 3. Install dependencies:
    pip install -r requirements.txt
@@ -57,7 +57,7 @@ A Machine Learning-based web application that predicts whether a patient is diab
 
 
 ## Project Structure
-MediScanLite/
+MEDISCANLITE/
 │
 ├── app.py
 ├── model.py
