@@ -61,6 +61,7 @@ MEDISCANLITE/
 │
 ├── app.py
 ├── model.py
+├── model.pkl
 ├── model_compare.py
 ├── requirements.txt
 ├── README.md
