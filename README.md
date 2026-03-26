@@ -57,7 +57,7 @@ A Machine Learning-powered web application that predicts diabetes risk based on 
    python app.py
 
 5. Open in browser:
-   http://127.0.0.1:5000/
+   http://127.0.0.1:5000/ (runs locally after starting the server)
 
 
 
