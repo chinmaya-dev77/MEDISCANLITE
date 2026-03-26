@@ -1,26 +1,48 @@
 # MediScan Lite 🩺
 
-A Machine Learning-based web application that predicts whether a patient is diabetic or not based on medical input parameters.
+A Machine Learning-powered web application that predicts diabetes risk based on medical input parameters. Built using a trained model and deployed with a modern interactive web interface.
 
----
 
-## Technologies Used
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- Streamlit
 
----
+## 🚀 Technologies Used
 
-##  Features
-- Accepts user health inputs (Glucose, BMI, Age, etc.)
-- Performs real-time diabetes prediction
-- Simple and interactive UI using Streamlit
-- Fast and lightweight application
+* Python
+* Pandas, NumPy
+* Scikit-learn
+* Flask (Backend)
+* HTML, CSS, JavaScript (Frontend)
+  
 
----
 
-##  How to Run
+## ✨ Features
+
+* Accepts user health inputs (Glucose, BMI, Age, etc.)
+* Real-time prediction using trained ML model
+* Displays prediction with confidence percentage
+* Modern and responsive UI with animations
+* Fast and lightweight web application
+
+
+
+## 🧠 Model Details
+
+* Algorithm Used: Support Vector Machine (SVM)
+* Dataset: Pima Indians Diabetes Dataset
+* Accuracy: ~75% - 80%
+
+
+
+## 🔄 Workflow
+
+1. Data Collection
+2. Data Preprocessing
+3. Model Training
+4. Model Evaluation
+5. Deployment using Flask
+
+
+
+## ⚙️ How to Run
 
 1. Clone the repository:
    git clone https://github.com/chinmaya-dev77/MEDISCANLITE.git
@@ -32,31 +54,15 @@ A Machine Learning-based web application that predicts whether a patient is diab
    pip install -r requirements.txt
 
 4. Run the application:
-   streamlit run app.py
+   python app.py
 
----
-
-## Model Details
-- Algorithm Used: Support Vector Machine (SVM) 
-- Dataset: Pima Indians Diabetes Dataset
-- Accuracy: ~75% - 80% 
-
-## 🔍 Workflow
-1. Data Collection  
-2. Data Preprocessing  
-3. Model Training  
-4. Model Evaluation  
-5. Deployment using Streamlit  
+5. Open in browser:
+   http://127.0.0.1:5000/
 
 
-## Future Improvements
-- Improve model accuracy using advanced algorithms
-- Add more medical features for better prediction
-- Deploy the application online for public use
-- Enhance UI/UX for better user experience
 
+## 📁 Project Structure
 
-## Project Structure
 MEDISCANLITE/
 │
 ├── app.py
@@ -65,10 +71,37 @@ MEDISCANLITE/
 ├── model_compare.py
 ├── requirements.txt
 ├── README.md
+│
+├── templates/
+│   └── index.html
+│
+└── static/
+├── style.css
+└── script.js
 
 
 
-## Author
-- Chinmaya Kumar Prusty
+## 🚀 Future Improvements
 
+* Improve model accuracy using advanced algorithms
+* Add explainable AI (feature importance)
+* Deploy the application online
+* Add user authentication and history tracking
+
+
+
+## 👨‍💻 Author
+
+* Chinmaya Kumar Prusty
+
+
+## 📸 Screenshots
+
+### 🟢 Low Risk Prediction
+
+![Low Risk](assets/Screenshot01.png)
+
+### 🔴 High Risk Prediction
+
+![High Risk](assets/Screenshot02.png)
 
