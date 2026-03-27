@@ -206,7 +206,7 @@ function predict() {
     
     // === UNCOMMENT FOR REAL BACKEND ===
     // If using Flask wrapper around your model:
-    fetch('/predict', {
+    fetch('https://mediscanlite.onrender.com/predict', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data)
