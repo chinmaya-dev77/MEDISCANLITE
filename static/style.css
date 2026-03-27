@@ -308,7 +308,7 @@ body {
     animation: fadeUp 0.5s ease-out 1s both;
 }
 
-/* .watermark {
+.watermark {
     position: fixed;
     bottom: 15px;
     right: 20px;
@@ -317,7 +317,7 @@ body {
     font-family: 'Inter', sans-serif;
     letter-spacing: 0.5px;
     z-index: 999;
-} */
+}
 
 /* ===== ANIMATIONS ===== */
 @keyframes fadeUp {
