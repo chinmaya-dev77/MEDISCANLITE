@@ -1,6 +1,7 @@
 # MediScan Lite 🩺
 
-A Machine Learning-powered web application that predicts diabetes risk based on medical input parameters. Built using a trained model and deployed with a modern interactive web interface.
+A full-stack machine learning web application that predicts diabetes risk using patient health data. Built with Flask backend and a modern interactive frontend, delivering real-time predictions with confidence scores.
+
 
 
 
@@ -57,7 +58,7 @@ A Machine Learning-powered web application that predicts diabetes risk based on 
    python app.py
 
 5. Open in browser:
-   http://127.0.0.1:5000/ (runs locally after starting the server)
+   (https://mediscanlite.onrender.com)
 
 
 
