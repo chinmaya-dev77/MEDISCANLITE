@@ -31,8 +31,8 @@ y = df["Outcome"]
 def load_and_prepare_data():
     # df = pd.read_csv("C:\\Users\\Chintu\\Downloads\\diabetes.csv")
     
-    # X = df.drop("Outcome", axis=1)
-    # y = df["Outcome"]
+    X = df.drop("Outcome", axis=1)
+    y = df["Outcome"]
     
     zero_cols = ['Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI']
     X[zero_cols] = X[zero_cols].replace(0, np.nan)
