@@ -156,7 +156,6 @@
 // Prediction Logic
 // ===========================
 // NOTE: This uses a client-side heuristic for DEMO purposes.
-// For real predictions, connect to your Flask/FastAPI backend:
 //   fetch('/predict', { method: 'POST', body: JSON.stringify(data) })
 
 function predict() {
